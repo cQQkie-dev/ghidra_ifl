@@ -1,0 +1,15 @@
+# Gradle build output
+/build/
+/dist/
+
+# Eclipse
+/.project
+/.classpath
+/.settings/
+
+# IntelliJ
+/.idea/
+/*.iml
+
+# vscode
+/.vscode
