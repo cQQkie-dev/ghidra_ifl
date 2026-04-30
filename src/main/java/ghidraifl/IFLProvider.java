@@ -990,7 +990,7 @@ public class IFLProvider extends ComponentProvider {
         // Skip auto-named?
         int skipChoice = JOptionPane.showConfirmDialog(
             mainPanel,
-            "Skip auto-named functions (names starting with \"FUN_\")?",
+            "Skip auto-named functions (names starting with \"FUN_\" or \"thunk_\")?",
             dialogTitle,
             JOptionPane.YES_NO_CANCEL_OPTION);
         if (skipChoice == JOptionPane.CANCEL_OPTION || skipChoice == JOptionPane.CLOSED_OPTION) {
