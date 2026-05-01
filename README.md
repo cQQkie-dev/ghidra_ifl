@@ -1,0 +1,6 @@
+Ghidra version of hasherezade's [ida_ifl](https://github.com/hasherezade/ida_ifl) (Interactive Functions List).
+Original features were preserved and extended with some extra functionality:
+
+	* Import/export for and from other hasherezade tools like [pe-bear](https://github.com/hasherezade/pe-bear), [tiny_tracer](https://github.com/hasherezade/tiny_tracer), [pe-sieve](https://github.com/hasherezade/pe-sieve) in `.tag` and `csv` formats
+	* exports specifically for fast iterations of static analysis to dynamic tracing with `tiny_tracer` by providing .params.txt and .func.csv exports
+	* fast filtering and selection of functions of interest with regex, as well as UI interaction for selecting view subsets of functions
